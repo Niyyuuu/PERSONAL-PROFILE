@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@100;300;400;700&display=swap");
+:root {
+  --primary: #00e0ff;
+  --bg: #000000;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat";
+  background-color: var(--bg);
+  color: var(--primary);
+  padding-top: 5%;
+}
+
+.wrapper {
+  background: rgb(37, 37, 37);
+  margin-top: 100px;
+  margin: auto;
+  border-radius: 10px;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 7px 7px 10px var(--primary);
+}
+
+.form {
+  color: var(--primary);
+  font-size: large;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 50px;
+  font-family: "Montserrat";
+  display: block;
+}
+
+.wrapper .form input{
+  background: #1b1b1b;
+  color: var(--primary);
+  font-size: 15px;
+  width: 450px;
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+  font-family: "Montserrat";
+}
+
+.wrapper .form input .email {
+  background: #1b1b1b;
+  color: var(--primary);
+  font-size: 15px;
+  width: 450px;
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-family: "Montserrat";
+}
+
+.wrapper .form textarea {
+  background: #1b1b1b;
+  color: var(--primary);
+  font-size: 15px;
+  width: 450px;
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  resize: none;
+  font-family: "Montserrat";
+}
+
+.wrapper .form .btn {
+  font-family: "Montserrat";
+  background: #000000;
+  color: var(--primary);
+  font-size: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  width: 200px;
+  border-radius: 20px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  opacity: 0.8;
+  transition: 0.3s all ease;
+}
+
+.wrapper .form .btn:hover {
+  opacity: 1;
+}
+
+.list {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: left;
+  padding-top: 20px;
+  font-size: large;
+}
+
+.content {
+  text-align: left;
+  background: rgb(32, 32, 32);
+  color: var(--primary);
+  padding: 10px;
+  margin: auto;
+  width: 500px;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 7px 7px 10px var(--primary);
+  padding-left: 25px;
+  margin-bottom: 100px;
+}
+
+.content h4 {
+  margin-bottom: 5px;
+  width: 450px;
+  color: rgb(136, 136, 136);
+  
+}
+
+.content p {
+  margin-bottom: 50px;
+  width: 450px;
+  color: rgb(217, 217, 217);
+}

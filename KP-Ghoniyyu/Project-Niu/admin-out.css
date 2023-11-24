@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    /* border: 1px solid rgb(155, 155, 155); */
+  }
+
+  body {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 250px;
+  }
+
+  h1 {
+    font-size: 35px;
+    color: black;
+  }
+
+  h2 {
+    font-size: 25px;
+    color: rgb(149, 149, 149);
+  }
